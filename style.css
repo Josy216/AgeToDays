@@ -39,9 +39,12 @@ button {
 }
 
 @media (max-width: 900px) {
-  .container,
+  .container{
+margin-top: 50px;
+}
   input,
-  button {
+  button,
+.container {
     text-align: center;
     display: block;
   }
